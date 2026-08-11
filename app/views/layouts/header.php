@@ -38,5 +38,10 @@
     '@context'=>'https://schema.org','@type'=>'Organization','name'=>'ELLCY',
     'url'=>APP_URL,'logo'=>rtrim(APP_URL, '/').'/uploads/services/stage.png'
   ], JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE) ?></script>
+  <!-- Vercel Web Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body class="<?= Security::e($body_class ?? '') ?>">
