@@ -7,6 +7,11 @@
   <meta name="csrf" content="<?= Security::csrfToken() ?>"/>
   <title>ELLCY Admin — <?= htmlspecialchars($page_title ?? 'Dashboard') ?></title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js" defer></script>
+  <!-- Vercel Web Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
   <style>
     :root{--pri:#6a1b9a;--pri-d:#5c1690;--pri-l:#f4e9ff;--sidebar:240px;--hdr:60px;--text:#1a1a2e;--txt2:#555;--border:#e0d5f0;--bg:#f8f5ff;--white:#fff;--success:#059669;--warn:#d97706;--danger:#dc2626}
     *{box-sizing:border-box;margin:0;padding:0}
